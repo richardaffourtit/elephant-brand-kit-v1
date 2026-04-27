@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    
+  /* Tailwind 4 uses oklch/oklab by default. html2canvas does not support them. 
+     Defining these overrides forces hex/rgb usage. */
+  --color-zinc-50: #fafafa;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #52525b;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+  --color-zinc-950: #09090b;
+
+  --color-neutral-500: #737373;
+  --color-stone-500: #78716c;
+  --color-slate-500: #64748b;
+  --color-gray-500: #737373;
+
+  --color-red-500: #ef4444;
+  --color-orange-500: #f97316;
+  --color-amber-500: #f59e0b;
+  --color-yellow-500: #eab308;
+  --color-lime-500: #84cc16;
+  --color-green-500: #22c55e;
+  --color-green-600: #16a34a;
+  --color-emerald-500: #10b981;
+  --color-teal-500: #14b8a6;
+  --color-cyan-500: #06b6d4;
+  --color-sky-500: #0ea5e9;
+  --color-blue-500: #3b82f6;
+  --color-indigo-500: #6366f1;
+  --color-violet-500: #8b5cf6;
+  --color-purple-500: #a855f7;
+  --color-fuchsia-500: #d946ef;
+  --color-pink-500: #ec4899;
+  --color-rose-500: #f43f5e;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
